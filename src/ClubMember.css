@@ -1,0 +1,113 @@
+
+.clubMember>h1{
+    border: 1px solid lightgray;
+    font-family: arial,sans-serif;
+    font-weight: 500;
+    padding:10px;
+}
+
+.clubMember__body{
+    display: flex;
+    /* align-items: center; */
+}
+
+.clubMember__left{
+    flex: 0.50;
+    border:1px solid lightgray;
+    margin: 10px;
+
+}
+
+.clubMember__left h2{
+    font-family: arial,sans-serif;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.clubMember__left>button{
+        padding:5px;
+        width:100px;
+        margin: 50px;
+        margin-left:100px;
+        
+
+}
+
+.clubMember__form{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.clubMember__table tr td{
+    padding-right: 30px;
+    padding: 10px
+}
+
+.clubMember__table tr td i{
+    padding-left: 10px
+}
+
+.club__foter{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 50px
+}
+
+.club__foter>h1{
+    font-family:arial,sans-serif;
+}
+
+.club__foter p{
+    font-size: 12px;
+    padding-left: 10px;
+    text-align:justify;
+}
+
+.clubMember__right{
+    flex: 0.50;
+    border:1px solid lightgray;
+    margin: 10px;
+}
+
+.clubMember__right > h2{
+    font-family: arial,sans-serif;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.clubMember__righttable{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom:1px solid lightgrey;
+
+}
+
+.clubMember__righttable h4{
+    font-family: arial,sans-serif;
+    font-weight:500;
+}
+
+.clubMember__footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom:1px solid lightgrey;
+
+}
+
+
+.clubMember__footer h4{
+    font-family: arial,sans-serif;
+    font-weight:500;
+}
+
+.club__footer{
+    border:1px solid lightgrey;
+    height: 250px;
+    margin:10px
+}

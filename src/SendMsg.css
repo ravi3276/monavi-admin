@@ -1,0 +1,62 @@
+.sendmessage{
+    border:1px solid lightgray;
+    height:100vh;
+}
+
+.sendMsg>h1{
+    font-weight: 600;
+    font-family: arial,sans-serif;
+    padding:30px;
+    border-bottom:1px solid lightgrey;
+}
+
+.sendMsg__form{
+    display:flex;
+    align-items:center;
+    padding:40px;
+}
+
+.sendMsg__form > input{
+    height:30px;
+    width:30px;
+    margin:0 20px;
+}
+
+.msg__form{
+    padding-left: 40px;
+}
+
+.msg__table > tr >td{
+    font-size: 25px;
+    font-weight:500;
+}
+
+#check2{
+    height:30px;
+    width:30px;
+    margin:0 20px;
+}
+
+.input__feild{
+    width:50vw;
+    padding:10px;
+    margin:10px;
+}
+
+.input__feild1{
+        width:90%;
+        margin-left:20px;
+        height:200px;
+}
+
+.sendMsg__btn{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding:20px;
+    
+}
+
+.sendMsg__btn>button{
+    margin-right:20px;
+}

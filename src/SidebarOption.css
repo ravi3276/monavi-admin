@@ -1,0 +1,27 @@
+.SidebarOption{
+    cursor: pointer;
+    padding-left:20px;
+    display:flex;
+    border-bottom: 1px solid grey;
+}
+
+.SidebarOption:hover{
+    background-color:white;
+}
+
+.SidebarOption > h3,.SidebarOption__icon>h3{
+    padding:15px;
+    font-family: arial,sans-serif;
+    font-weight:500;
+    width:160px;
+}
+
+.SidebarOption__icon{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.SidebarOption__icon>.MuiSvgIcon-root{
+        /* padding-left:30px; */
+}

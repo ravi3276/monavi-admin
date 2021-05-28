@@ -1,0 +1,70 @@
+
+.allMsg>h1{
+    font-weight: 600;
+    font-family: arial,sans-serif;
+    padding:30px;
+    border-bottom:1px solid lightgrey;
+}
+
+.allMsg__form{
+    display:flex;
+    align-items:center;
+    padding:40px;
+}
+
+.allMsg__form > input{
+    height:30px;
+    width:30px;
+    margin:0 20px;
+}
+
+
+.allmsg__form{
+    padding-left: 40px;
+}
+
+.allmsg__table > tr >td{
+    font-size: 22px;
+    font-weight:500;
+}
+
+
+.all__input{
+    padding:10px;
+    margin:10px;
+}
+
+.all__inputtext{
+     /* width:50vw; */
+     padding:10px;
+     margin:10px;
+}
+
+.allmsg__form > p>strong{
+    padding:20px;
+    padding-left: 100px;
+}
+.allmsg__form > p{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.allmsg__input{
+    width:90%;
+    margin-left:20px;
+    height:200px;
+    margin-top:20px;
+}
+
+
+.allmsg__btn{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding:20px;
+    
+}
+
+.sendMsg__btn>button{
+    margin-right:20px;
+}

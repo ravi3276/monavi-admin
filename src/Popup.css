@@ -1,0 +1,41 @@
+.popup{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+}
+
+.popup__inner{
+    border: 1px solid lightgray;
+    background-color:white;
+    position: relative;
+    /* top: 50px; */
+    left: 100%;
+    padding: 50px;
+}
+
+
+
+
+.popup__inner > h3{
+    font-family:arial,sans-serif;
+    padding:20px 0;
+}
+
+.popup__input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:15px;
+    padding-bottom:30px;
+}
+
+.popup__input p{
+    padding-right: 10px;
+}
+
+.popup__inner >button{
+    margin:5px;
+    width:150px;
+    padding:5px;
+}

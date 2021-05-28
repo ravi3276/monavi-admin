@@ -1,0 +1,98 @@
+
+.user__header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px;
+}
+
+.user__header > h1{
+    font-weight: 500;
+    font-family:arial,sans-serif;
+}
+
+.user__info>p{
+    padding:3px;
+    font-size:12px;
+}
+
+.user__info>h5{
+    font-family: arial,sans-serif;
+}
+
+.user__search{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px;
+    border:1px solid lightgray;
+}
+
+.search__left{
+    display:flex;
+    align-items: center;
+}
+
+.search__left>h5{
+    font-family: arial,sans-serif;
+
+}
+
+.search__left>input{
+    margin:10px;
+}
+
+.search__right{
+    display:flex;
+    align-items: center;
+    border:1px solid black;
+    border-radius:999px;
+    width:500px;
+}
+
+.search__right>.MuiSvgIcon-root{
+    padding:10px;
+}
+
+.search__right>input{
+    border:1px solid white;
+    outline: none;
+    padding: 10px
+}
+
+.user__table{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.user__table > h5{
+    font-family: arial,sans-serif;
+}
+
+.user__tabledata{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.user__tabledata > p{
+    font-size:12px;
+    font-family: arial,sans-serif;
+}
+
+.user__tabledata > button{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.user__btns > button{
+    margin-right:5px;
+}
+
+.table{
+    height: 100vh;
+}

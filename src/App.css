@@ -1,0 +1,8 @@
+.app{
+    display:flex;
+    /* height:185vh; */
+}
+
+.app__body{
+    flex:1;
+}
