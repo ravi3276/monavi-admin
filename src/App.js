@@ -14,9 +14,18 @@ import ClubMember from './ClubMember';
 import TransferPoints from './TransferPoints';
 import SendMsg from './SendMsg';
 import AllMsg from './AllMsg';
+import {useState} from 'react';
+import AllMessages from './AllMessages';
+import Events from './Events';
+import ItemShop from './ItemShop';
+import UserReport from './UserReport';
+import Post from './Post';
 
 function App() {
-  return (
+  const [user,setUser]=useState("null");
+  return !user?(
+    <HomePage />
+  ):(
     <div className="app">
         <Router>
         <Sidebar />
@@ -24,12 +33,32 @@ function App() {
         <Chat />
         <Switch>
 
+        <Route path="/managereport">
+        <UserReport title='Manage Reports'/>
+       </Route>
+
+        <Route path="/userreport">
+        <UserReport title='User Reports'/>
+       </Route>
+
+       <Route path="/Reports">
+        <UserReport title='User Reports'/>
+       </Route>
+
+        <Route path="/Item Shop">
+        <ItemShop />
+       </Route>
+
+       <Route path="/Events">
+        <Events />
+       </Route>
+
         <Route path="/post">
-        <h1>post</h1>
+        <Post />
        </Route>
 
         <Route path="/allmessage">
-        <AllMsg />
+        <AllMessages />
        </Route>
 
         <Route path="/sendmessage">
@@ -49,7 +78,7 @@ function App() {
          </Route>
 
          <Route path="/blockeduser">
-         <h1>Blocked User</h1>
+         <User title="Blocked User" name="User Name" club="Club Managers"/>
          </Route>
 
           <Route path="/user">

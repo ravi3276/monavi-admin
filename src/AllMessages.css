@@ -1,0 +1,46 @@
+.allmeaasge__top{
+    border: 1px solid lightgray;
+    height: 100vh;
+}
+
+.allmeaasge__header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.allmeaasge__header > h2{
+    font-family: arial,sans-serif;
+}
+
+.allmeaasge__header > h2 >strong{
+    padding-right: 7px;
+}
+
+.allmeaasge__title{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left:50px ;
+    /* padding-right:50px ; */
+    border-bottom: 1px solid lightgray;
+}
+
+.allmeaasge__title >h3{
+    font-family: arial,sans-serif;
+}
+
+.allmeaasge__data{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 10px ;
+}
+
+.allmessages__btns >button{
+    margin: 5px;
+    
+}

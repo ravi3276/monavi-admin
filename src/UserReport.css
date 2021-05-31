@@ -1,0 +1,70 @@
+
+.userreport > h1{
+    font-weight: 500;
+    font-family:arial,sans-serif;
+    padding: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.userreport__search{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px;
+    border:1px solid lightgray;
+}
+
+.userreport__left{
+    display:flex;
+    align-items: center;
+}
+
+.userreport__left>h5{
+    font-family: arial,sans-serif;
+
+}
+
+.userreport__left>input{
+    margin:10px;
+}
+
+
+.userreport__right{
+    display:flex;
+    align-items: center;
+    border:1px solid black;
+    border-radius:999px;
+    width:500px;
+}
+
+.userreport__right>.MuiSvgIcon-root{
+    padding:10px;
+}
+
+.userreport__right>input{
+    border:1px solid white;
+    outline: none;
+    padding: 10px
+}
+
+.userreport__table{
+    width: 100%;
+}
+
+.userreport__table,th{
+    border-right: 1px solid black;
+    border-collapse: collapse;
+}
+
+.description{
+    width: 500px;
+}
+
+.userreport__table>tr>th{
+    padding: 20px;
+}
+
+.userreport__table>tr>th>button{
+    margin: 5px;
+}

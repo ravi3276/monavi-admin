@@ -1,8 +1,16 @@
 import React from 'react'
 import './SendMsg.css';
 import Footer from './Footer';
+import {useHistory} from 'react-router-dom'
+
 
 function SendMsg() {
+    const history=useHistory();
+
+    const allmsg=()=>{
+        History.replace('/events')
+    }
+
     return (
         <div className="sendMsg">
         <div className="sendmessage">
@@ -11,7 +19,7 @@ function SendMsg() {
                 <input type="radio" id="radio2" name="radio2"  />
                 <p>Message</p>
 
-                <input type="radio" id="radio2" name="radio2"  />
+                <input onClick={allmsg} type="radio" id="radio2" name="radio2"  />
                  <p>Events</p>
                 </div>
 
@@ -48,7 +56,7 @@ function SendMsg() {
                         </form>
                        <input className="input__feild1" type="text" placeholder=""/>
 
-                        <div className="allmsg__btn">
+                        <div className="sendMsg__btn">
                         <button>Send</button>
                         <button>cancel</button>
                         </div>

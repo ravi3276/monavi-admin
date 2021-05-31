@@ -29,13 +29,24 @@ function Sidebar() {
       history.push('/sendmessage')
     }
 
-    const allMsg=()=>{
+    const allMessage=()=>{
       history.push('/allmessage')
     }
 
     const post=()=>{
       history.push('/post')
     }
+
+    const userreports=()=>{
+      history.push('/userreport')
+
+    }
+
+    const managereport=()=>{
+      history.push('/managereport')
+
+    }
+
 
     return (
         <div className="sidebar">
@@ -72,7 +83,7 @@ function Sidebar() {
             <SidebarOption className="dropbtn" title="Post & Message" Icon={ArrowDropDownIcon}/>
             <div class="dropdown-content">
                <p onClick={sendMessage}>Send Message</p>
-               <p onClick={allMsg}>All Message</p>
+               <p onClick={allMessage}>All Message</p>
                <p onClick={post}>Post</p>
              </div>
             </div>
@@ -85,8 +96,8 @@ function Sidebar() {
             <div className="dropdown">
             <SidebarOption className="dropbtn" title="Reports" Icon={ArrowDropDownIcon}/>
             <div class="dropdown-content">
-               <p onClick={user}>User Reports</p>
-               <p onClick={blockeduser}>Manager Reports</p>
+               <p onClick={userreports}>User Reports</p>
+               <p onClick={managereport}>Manager Reports</p>
              </div>
             </div>
 

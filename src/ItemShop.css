@@ -1,0 +1,100 @@
+
+.itemshop > h1{
+    font-weight: 500;
+    font-family:arial,sans-serif;
+    padding: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.itemshop__search{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px;
+    border:1px solid lightgray;
+}
+
+.search__left{
+    display:flex;
+    align-items: center;
+}
+
+.search__left>h5{
+    font-family: arial,sans-serif;
+
+}
+
+.search__left>input{
+    margin:10px;
+}
+
+
+.search__right{
+    display:flex;
+    align-items: center;
+    border:1px solid black;
+    border-radius:999px;
+    width:500px;
+}
+
+.search__right>.MuiSvgIcon-root{
+    padding:10px;
+}
+
+.search__right>input{
+    border:1px solid white;
+    outline: none;
+    padding: 10px
+}
+.item__btn{
+    display:flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.item__btn > button{
+    padding: 10px;
+}
+
+.itemshop__body{
+    display: flex;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.itemshop__icon{
+    height: 50px !important;
+    width: 50px !important;
+    padding-bottom: 20px;
+}
+
+.itemshop__body1{
+    border: 1px solid lightgray;
+    max-width: 250px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.itemshop__body1 >p{
+    padding-bottom: 30px;
+}
+
+.itemshop__body1 > h3{
+    padding: 10px;
+}
+
+.itemshop__form{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.itemshop__form > button{
+    width: 100px;
+}
+
+.itemshop__cost{
+    display: flex;
+    padding: 15px;
+
+}
